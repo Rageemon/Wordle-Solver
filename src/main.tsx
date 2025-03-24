@@ -9,7 +9,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 // Create a client
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-      <Router basename="/Wordle-Solver/">
+      <Router>
     
         <App />
       </Router>
